@@ -1,0 +1,61 @@
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    color: #333;
+  
+    .movie-poster {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+  
+    .movie-info {
+      max-width: 800px;
+      text-align: left;
+  
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #007bff;
+      }
+  
+      .genre,
+      .release-date,
+      .rating {
+        margin-bottom: 15px;
+        font-size: 1.1em;
+  
+        span {
+          font-weight: bold;
+          color: #555;
+        }
+      }
+  
+      .plot {
+        font-size: 1.2em;
+        line-height: 1.6;
+        margin-top: 20px;
+      }
+    }
+  
+    .back-button {
+      margin-top: 40px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }

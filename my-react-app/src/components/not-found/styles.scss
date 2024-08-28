@@ -1,0 +1,16 @@
+.not-found {
+    margin: 55px 0;
+  
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    &__title {
+      display: block;
+      margin-bottom: 35px;
+      font-size: 55px;
+    }
+  }
